@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Meteor Mining.css">
+    <script defer src="Meteor Mining.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Known Space</a>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Shooting Star.html">Shooting Star</a></li>
+            <li><a href="Meteor Mining.html">Meteor Mining</a></li>
+        </ul>
+    </header>
+    <div class="wrapper">
+        <h2>How deep can you dig?</h2>
+        <ul id="player-info">
+            <li>
+                Oxygen: <span data-health>0</span>
+            </li>
+            <li>
+                Depth: <span data-depth>0</span>
+            </li>
+            <li>
+                Iron: <span data-iron>0</span>
+            </li>
+        </ul>
+        <div class="action-panel">
+            <button id="dig-straight-action">Dig straight</button>
+            <button id="dig-action">Dig down</button>
+            <button id="food-action">Refill Oxygen (10)</button>
+            <button id="upgrade-action">Upgrade Equipment (10)</button>
+        </div>
+    </div>
+</body>
+</html>
